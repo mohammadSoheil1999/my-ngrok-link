@@ -1,8 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="refresh" content="0; url=__REDIRECT_URL__">
+  <meta charset="UTF-8">
+
+  <!-- 🚫 Prevent caching (important for phones) -->
+  <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="expires" content="0">
+
+  <title>Redirecting...</title>
+
+  <script>
+    // ✅ Reliable redirect (better than meta refresh)
+    window.location.replace("__REDIRECT_URL__");
+  </script>
 </head>
+
 <body>
   Redirecting...
 </body>
